@@ -15,8 +15,9 @@ body {
     width: 50px;
     height: calc(100% - 70px);
     background-color: black;
-    z-index: 2;
+    z-index: 1;
     color: gray;
+    overflow-y: auto;
 }
 
 .sidebar .element:hover {
@@ -85,9 +86,9 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
+    width: calc(100% - 200px);
     height: 70px;
-    z-index: 1;
+    z-index: 3;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -229,7 +230,7 @@ body {
     bottom: 0;
     height: 70px;
     width: 100%;
-    z-index: 3;
+    z-index: 2;
     background-color: rgb(44, 44, 44);
     color: white;
     font-size: 12px;
