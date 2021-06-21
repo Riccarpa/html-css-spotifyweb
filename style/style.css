@@ -49,7 +49,7 @@ body {
     flex-grow: 1;
 }
 
-dd .up-sidebar .element {
+.up-sidebar .element {
     margin-top: 15px;
 }
 
