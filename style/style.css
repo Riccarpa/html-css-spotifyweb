@@ -48,6 +48,7 @@ body {
 
 #logo {
     width: 80%;
+    padding: 5px;
 }
 
 .up-sidebar {
@@ -215,7 +216,7 @@ body {
 }
 
 .hover-play:hover {
-    filter: grayscale(0.8);
+    filter: grayscale(1);
 }
 
 .cover span {
@@ -300,8 +301,8 @@ body {
     height: 15px;
     width: 15px;
     position: absolute;
-    left: 95%;
-    top: -90%;
+    left: 100%;
+    top: -95%;
     display: none;
 }
 
