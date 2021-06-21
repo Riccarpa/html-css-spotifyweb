@@ -127,8 +127,14 @@ body {
     font-size: 12px;
 }
 
-.content h1 {
+.content h1,
+.content h3 {
     margin: 20px;
+}
+
+.content h3 {
+    color: gray;
+    font-size: 16px;
 }
 
 .cover {
@@ -178,10 +184,15 @@ body {
 
 .buttons {
     flex-shrink: 0;
+    width: 100%
 }
 
 .buttons i {
-    margin: 0 5px 5px 0;
+    margin: 0 15px 5px 0;
+}
+
+.buttons i :last-child {
+    margin-right: 0;
 }
 
 .progres-bar {
@@ -227,6 +238,23 @@ body {
 
 /* right */
 
+.right i {
+    margin-right: 5px;
+}
+
+.volume-bar {
+    height: 5px;
+    background-color: gray;
+    flex-grow: 1;
+    opacity: 0.5;
+}
+
+.volume-bar div {
+    height: 5px;
+    width: 40%;
+    background-color: white;
+}
+
 
 /* media-query */
 
@@ -239,5 +267,17 @@ body {
     }
     .tablet {
         display: flex;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .covers {
+        justify-content: left;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .covers {
+        justify-content: left;
     }
 }
