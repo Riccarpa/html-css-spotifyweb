@@ -71,10 +71,6 @@ body {
     margin-right: 10px;
 }
 
-.up-sidebar h3 {
-    margin-top: 20px;
-}
-
 .fas.fa-plus.fa-2x {
     background-color: rgb(197, 194, 194);
     padding: 5px;
@@ -117,10 +113,6 @@ body {
     opacity: 0.5;
     margin-top: 5px;
     display: none;
-}
-
-.button {
-    margin-right: 30px;
 }
 
 .head .button:hover {
@@ -269,10 +261,6 @@ body {
     margin: 0 15px 5px 0;
 }
 
-.buttons i :last-child {
-    margin-right: 0;
-}
-
 .progres-bar {
     width: 100%;
 }
@@ -345,19 +333,10 @@ body {
     padding: 10px;
 }
 
-.text p {
-    font-size: 8px;
-    color: gray;
-}
-
 .text p:hover {
     color: white;
     text-decoration: underline;
     cursor: pointer;
-}
-
-.icons {
-    color: gray;
 }
 
 .icons *:hover {
